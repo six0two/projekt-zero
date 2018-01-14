@@ -27,15 +27,31 @@ body
 
 #sidebar
 {
-    
+    float: left;
+    width: 148px;
+    min-height: 872px;
+    padding: 20px;
+    background-color: lightgray;
+    text-align: center;
+    font-size: 18px;
+    border-right: 2px solid #666666;
 }
 #content
 {
-    
+    float: left;
+    padding: 40px;
+    width: 730px;
+    background-color: #dedede;
+    text-align: justify;
+    min-height: 620px;
 }
 #footer
 {
-    
+    clear: both;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
 }
 .option
 {
@@ -51,6 +67,21 @@ body
 .option:hover
 {
     background-color: #000000;
+    cursor: pointer;
+}
+
+.optionL
+{
+    font-size: 18px;
+    height: 25px;
+    padding: 10px;
+    border-bottom: 2px solid #444444;
+}
+
+.optionL:hover
+{
+    background-color: #F36742;
+    color: white;
     cursor: pointer;
 }
 
@@ -78,4 +109,21 @@ body
     float: left;
     padding: 20px;
     width: 760px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.bigtitle
+{
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    
+}
+.dotted
+{
+    height: 5px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #444444;
 }
